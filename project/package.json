@@ -1,0 +1,38 @@
+{
+  "name": "image-tiles-scroll",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "gsap": "^3.12.5",
+    "imagesloaded": "^5.0.0",
+    "locomotive-scroll": "^4.1.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-locomotive-scroll": "^0.2.2",
+    "react-router-dom": "^7.1.1",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/imagesloaded": "^4.1.6",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  }
+}
